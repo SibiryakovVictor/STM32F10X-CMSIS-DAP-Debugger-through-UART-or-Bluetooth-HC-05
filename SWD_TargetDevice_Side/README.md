@@ -5,7 +5,7 @@
 ```
 #define SWDIO_PORT          GPIOB
 #define SWDIO_PIN_NUMBER      8   
-#define SWCLK_PORT	        GPIOA
+#define SWCLK_PORT          GPIOA
 #define SWCLK_PIN_NUMBER      8
 #define nRESET_PORT         GPIOB
 #define nRESET_PIN_NUMBER     1
