@@ -1,0 +1,8 @@
+# Declare files that will always have LF line endings on checkout.
+
+*.uvproj		text eol=lf
+*.uvopt		text eol=lf
+*.uvoptx		text eol=lf
+*.uvprojx		text eol=lf
+*.uvmpw		text eol=lf
+*.uvgui*		text eol=lf
