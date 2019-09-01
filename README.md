@@ -8,7 +8,7 @@ https://github.com/ArtemZaZ/YOBA-DAP-Programmer
 Проект собран для Keil 5.
 
 ## Подключение и соединение
-PC<- **USB** ->"USB_PC_Side"<- **UART / Bluetooth HC-05** ->"SWD_TargetDevice_Side" Board<- **SWD** ->TargetDevice
+PC<- **USB** ->"USB_PC_Side"<- **UART / Bluetooth HC-05** ->"SWD_TargetDevice_Side"<- **SWD** ->TargetDevice
 
 Более подробно описано в файлах README директорий проектов **SWD_TargetDevice_Side** и **USB_PC_Side**.
 
