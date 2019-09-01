@@ -8,7 +8,9 @@ https://github.com/ArtemZaZ/YOBA-DAP-Programmer
 Проект собран для Keil 5.
 
 ## Подключение и соединение
-Описано в файлах README в папках **SWD_TargetDevice_Side** и **USB_PC_Side**.
+PC<- **USB** ->"USB_PC_Side"<- **UART / Bluetooth HC-05** ->"SWD_TargetDevice_Side" Board<- **SWD** ->TargetDevice
+
+Более подробно описано в файлах README директорий проектов **SWD_TargetDevice_Side** и **USB_PC_Side**.
 
 ## Выбор интерфейса соединения частей отладчика
 - Для того чтобы обмен данными между частями отладчика происходил посредством Bluetooth-модулей HC-05, необходимо **В ОБОИХ ПРОЕКТАХ** в начале файла **src/main/main.c** (строка №7) раскомментировать определение макроса BLUETOOTH_HC05_TRANSFER_MODE (раскомментировано по умолчанию):
